@@ -16,6 +16,7 @@
 		719547D11EC0625C00227E2B /* WABtestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 719547D01EC0625C00227E2B /* WABtestTests.m */; };
 		719547DC1EC0625C00227E2B /* WABtestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 719547DB1EC0625C00227E2B /* WABtestUITests.m */; };
 		719547EA1EC1A69000227E2B /* wabImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 719547E91EC1A69000227E2B /* wabImage.png */; };
+		71DDC2C11ED04DBE0021AF60 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DDC2C01ED04DBE0021AF60 /* People.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		719547DB1EC0625C00227E2B /* WABtestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WABtestUITests.m; sourceTree = "<group>"; };
 		719547DD1EC0625C00227E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		719547E91EC1A69000227E2B /* wabImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wabImage.png; sourceTree = "<group>"; };
+		71DDC2BF1ED04DBE0021AF60 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		71DDC2C01ED04DBE0021AF60 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				719547BA1EC0625C00227E2B /* AppDelegate.m */,
 				719547BC1EC0625C00227E2B /* ViewController.h */,
 				719547BD1EC0625C00227E2B /* ViewController.m */,
+				71DDC2BF1ED04DBE0021AF60 /* People.h */,
+				71DDC2C01ED04DBE0021AF60 /* People.m */,
 				719547BF1EC0625C00227E2B /* Main.storyboard */,
 				719547C21EC0625C00227E2B /* Assets.xcassets */,
 				719547C41EC0625C00227E2B /* LaunchScreen.storyboard */,
@@ -280,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71DDC2C11ED04DBE0021AF60 /* People.m in Sources */,
 				719547BE1EC0625C00227E2B /* ViewController.m in Sources */,
 				719547BB1EC0625C00227E2B /* AppDelegate.m in Sources */,
 				719547B81EC0625C00227E2B /* main.m in Sources */,
@@ -520,6 +526,7 @@
 				719547E21EC0625C00227E2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		719547E31EC0625C00227E2B /* Build configuration list for PBXNativeTarget "WABtestTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +535,7 @@
 				719547E51EC0625C00227E2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		719547E61EC0625C00227E2B /* Build configuration list for PBXNativeTarget "WABtestUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +544,7 @@
 				719547E81EC0625C00227E2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
